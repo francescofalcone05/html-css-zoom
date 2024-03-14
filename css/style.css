@@ -9,6 +9,10 @@ body{
     height: 100vh;
 }
 
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+}
 
 /* start content */
 
@@ -16,10 +20,70 @@ body{
     width: 100%;
     height: 90vh;
     background-color: black;
+    position: relative;
+}
+
+.card-container{
+    background-color: blue;
+    width: 90%;
+    margin: 3rem auto 1rem auto;
+
 }
 
 .tools-container{
     width: 100%;
     height: 10vh;
-    background-color: darkgray;
+    background-color: rgb(46, 45, 45);
 }
+
+
+/* up tools */
+.up-icons>span{
+    background-color: gray;
+    padding: 0.2rem;
+    color: white;
+}
+
+.up-icons{
+    position: absolute;
+    top: 0.2rem;
+    right:0;
+}
+
+/* cards */
+
+.card{
+    width: calc(100% / 7 - 0.4rem);
+    height: calc(100% / 4 - 0.8rem);
+    border: dashed;
+    margin: 0.4rem 0.2rem;
+}
+
+
+/* bottom tools */
+
+.tools-container{
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    color: white;
+}
+
+.left-tools>div{
+    border: dashed;
+}
+
+.middle-tools>div{  
+    border: dashed;
+}
+
+.right-tools>div{
+    border: dashed;
+    
+}
+
+.right-tools{
+    background-color: gray;
+}
+
+
+
