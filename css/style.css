@@ -24,8 +24,8 @@ body{
 }
 
 .card-container{
-    background-color: blue;
     width: 90%;
+    height: 90%;
     margin: 3rem auto 1rem auto;
     position: relative;
 }
@@ -39,15 +39,17 @@ body{
 
 
 /* up tools */
-.up-icons>i{
+.up-icons>span{
     background-color: gray;
     padding: 0.2rem;
     color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
 }
 
 .up-icons{
     position: absolute;
-    top: 0.2rem;
+    top: 0.5rem;
     right:0;
     color: white;
 }
@@ -59,14 +61,18 @@ body{
 .card{
     width: calc(100% / 7 - 0.4rem);
     height: calc(100% / 4 - 0.8rem);
-    border: dashed;
     margin: 0.4rem 0.2rem;
     position: relative;
+    background-image: url(../img/dog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
 }
 
 .card>img{
     width: 100%;
-    height: 100%;
+    height: fit-content;
 }
 
 .card>span{
@@ -93,13 +99,18 @@ body{
     border: dashed;
 }
 
-.right-tools>div{
-    border: dashed;
-    
-}
 
 .right-tools{
     background-color: gray;
+    color: red;
+    text-align: center;
+    padding: 1.8rem;
+    cursor: pointer;
+    
+}
+
+.tools-container i{
+    padding: 0.5rem;
 }
 
 
