@@ -18,7 +18,7 @@ body{
 
 .main-container{
     width: 100%;
-    height: 90vh;
+    height: 91vh;
     background-color: black;
     position: relative;
 }
@@ -32,7 +32,7 @@ body{
 
 .tools-container{
     width: 100%;
-    height: 10vh;
+    height: 9vh;
     background-color: rgb(46, 45, 45);
 }
 
@@ -89,29 +89,51 @@ body{
     justify-content: space-between;
     flex-flow: row nowrap;
     color: white;
+    text-align: center;
 }
 
 .left-tools>div{
-    border: dashed;
+    cursor: pointer;
+    margin: 0 0.5rem;
+
 }
 
 .middle-tools>div{  
-    border: dashed;
+    cursor: pointer;
+    margin: 0 0.5rem;
 }
-
 
 .right-tools{
     background-color: gray;
     color: red;
     text-align: center;
     padding: 1.8rem;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
 .tools-container i{
     padding: 0.5rem;
 }
 
+.angle-up{
+    font-size: 0.4rem;
+    padding-top: 0.5rem;
+}
 
+.name-tools{
+    font-size: 0.8rem;
+}
+
+  /* hover */
+.fa-share-from-square:hover{
+    color: green;
+}
+
+.angle-up:hover{
+    color: red;
+}
+
+.up-icons>span>i:hover{
+    color: black;
+}
 
