@@ -75,13 +75,15 @@ body{
     height: fit-content;
 }
 
-.card>span{
+.card span{
     color: white;
+    font-weight: bold;
     position: absolute;
     bottom: 0.5rem;
     left: 0;
-    z-index: 9;
+    background-color: rgba(00, 00, 00, 0.5)
 }
+
 
 /* bottom tools */
 
