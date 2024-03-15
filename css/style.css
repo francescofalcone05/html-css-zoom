@@ -126,11 +126,12 @@ body{
     font-size: 0.8rem;
 }
 
-  /* hover */
-.fa-share-from-square:hover{
+.fa-share-from-square{
     color: green;
 }
 
+
+  /* hover */
 .angle-up:hover{
     color: red;
 }
